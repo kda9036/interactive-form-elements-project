@@ -1,0 +1,117 @@
+/* Style Sheet for Project 1: Interactive Form Elements */
+
+body {
+    background-color:lightblue;
+    margin: 50px;
+    color: #33475b;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+h1 {
+    color:indigo;
+    text-shadow: 1px 1px #000;
+    text-align: center;
+}
+
+#dataSelector, #resultHolder {
+    text-align: center;
+}
+
+.dataBtn {
+    background-color: indigo;
+    width: 300px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+}
+
+#summaryHolder {
+    text-align: center;
+}
+
+.sel-opt-div {
+    border: 8px solid;
+    padding: 10px;
+    border-image: repeating-linear-gradient(to bottom right, #33475b, indigo, #FF77CC, #FF6666) 25;
+    background-color: rgb(205, 189, 218);
+    text-align: center;
+}
+
+.sel-opt-div > * {
+    font-size: 16px;
+    color: indigo;
+    margin: 5px;
+    padding: 5px;
+}
+
+input {
+    position: absolute;
+    left: 175px;
+}
+
+#submit {
+    background-color: green;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px 0;
+    margin: 20px 0;
+    cursor: pointer;
+    position: relative;
+    left: 200px;
+}
+
+.dataBtn:hover, #submit:hover {
+    border: 5px #33475b ridge;
+    color: aliceblue;
+}
+
+#startOver {
+    position: relative;
+    margin: 20px;
+    float: right;
+}
+
+#startOverBtn:hover {
+    color: red;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* Reference: https://codepen.io/MarioDesigns/pen/woJgeo */
+/* Make image results float up and down */
+.bounce {
+    margin: 30px;
+	box-sizing: border-box;
+	border: 5px indigo solid;
+	border-radius: 10%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out 10; /* bounce up and down 10 times */
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
