@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Project 1: Interactive Form Elements</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/style.css">
+        
+        <script src="./js/script.js"></script>
+
+    </head>
+    <body>
+        <!-- onload="myFunct('init')"  calling from button click instead of on page load -->
+        <div id="dataSelector">
+            <h1>
+                What is Your Quest?
+            </h1>
+            <button class="dataBtn" onclick= "pickData(DATA1, END1);">
+                Pet Finder
+            </button>
+            <button class="dataBtn" onclick= "pickData(DATA2, END2);">
+                Ice Cream Creator
+            </button>
+        </div>
+
+        <div id="selectHolder">
+
+        </div>
+
+        <div id="summaryHolder">
+
+        </div>
+
+        <div id="resultHolder">
+
+        </div>
+
+        <div id="formHolder">
+
+        </div>
+
+        <div id="startOver">
+            <button id="startOverBtn" style="display:none" onclick="window.location.href='';">
+                New Quest
+            </button>
+        </div>
+
+    </body>
+</html>
