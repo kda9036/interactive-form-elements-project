@@ -19,6 +19,8 @@ Some use of DHTML
 
 Re-direction of non-modern browsers to a legacy page.
 
+Works with 2 data sets: Pet Finder and Ice Cream Creation options.
+
 # Technologies / Software
 
 HTML, CSS, JavaScript
